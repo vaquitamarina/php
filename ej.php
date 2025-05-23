@@ -10,6 +10,8 @@ if (isset($_SESSION["platos"])) {
 }
 count($arreglo) //para el tamaño
 ?>
+
+//tabla en html
 <table>
     <tr>
         <td>Nombre</td>
@@ -21,6 +23,9 @@ count($arreglo) //para el tamaño
     </tr>
 </table>
 
+<a href="archivo.php" target="_blank"></a>
+
+//select, y input checkbox
 <form method="POST">
     <select name="op">
         <option value="valor que tomara op">Opcion 1</option>
